@@ -1,0 +1,104 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Loved+by+the+King&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@font-face {
+    font-family: 'Love';
+    src: url('Fonte/Love.otf') format(opentype);
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root{
+    --cor0: #e11700;
+    --cor1: #d81600;
+    --cor2: #b11200;
+    --cor3: #940f00;
+    --cor4: #720b00;
+    --cor5: #500800;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #290400;
+}
+header{
+    background-image: linear-gradient(to bottom, var(--cor0), var(--cor1), var(--cor2), var(--cor3));
+    text-align: center;
+    color: white;
+    width: 100%;
+    height: 250px;
+}
+header > h1{
+    padding-top: 70px;
+    padding-bottom: 12px;
+    font-size: 40px;
+    font-family: 'Love', sans-serif;
+}
+header > p {
+    font-size: 18px;
+    font-family: 'Loved by the King', sans-serif;
+}
+main{
+    background-color: white;
+    min-width: 250px;
+    max-width: 800px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+}
+main > h1{
+    text-align: center;
+    padding: 20px 0px;
+    font-family: 'Love';
+    color: #e11700;
+}
+main > h2 {
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Love';
+    font-family: 'Loved by the King', sans-serif;
+    text-decoration: underline;
+    color: var(--cor2);
+    font-size: 30px;
+}
+main > h3{
+    color: var(--cor4);
+    margin: 10px;
+}
+main > p{
+    text-indent: 20px;
+    margin: 0px 10px;
+}
+div{
+    position: relative;
+    padding-bottom: 60%;
+    background-color: var(--cor1);
+    margin-top: 10px;
+}
+iframe{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+h1#final{
+    margin: 20px;
+    font-size: 28px;
+}
+img{
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 15px;
+    background-color: #e11700;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
+footer{
+    color: white;
+    text-align: center;
+    background-color: #290400;
+    margin: 10px;
+}
