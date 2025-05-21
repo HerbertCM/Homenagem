@@ -3,7 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Aladin&family=Amarante&family=Bebas+Neue&family=Glass+Antiqua&family=Lexend:wght@100..900&display=swap');
 @font-face {
     font-family: 'Love';
-    src: url('../Fonte/Love.otf') format(opentype);
+    src: url('Fonte/Love.otf') format(opentype);
     font-weight: normal;
     font-style: normal;
 }
@@ -22,15 +22,14 @@
 body{
     background-color: black;
 }
-header{
-    text-align: center;
-    height: 200px;
+header {
+    height: 100px;
 }
-header > h1{
-    padding-top: 100px;
-    color: white;
-    font-size: 40px;
-    font-family: 'Love', sans-serif;
+img{
+    display: block;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px white;
 }
 main > p#corpo{
     color: white;
@@ -56,14 +55,6 @@ main > p#voltar{
     font-family: 'Loved by the King', sans-serif;
     font-size: 24px;
 }
-img{
-    display: block;
-    margin: auto;
-    padding: 10px;
-    background-color: #e11700;
-    border-radius: 10px;
-    box-shadow: 5px 5px 5px var(--cor5);
-}
 a{
     text-decoration: none;
     color: white;
@@ -79,7 +70,7 @@ footer{
     color: white;
     text-align: center;
     margin-bottom: 10px;
-    margin-top: 100px;
+    margin-top: 150px;
 }
 footer > p{
     font-size: 14px;

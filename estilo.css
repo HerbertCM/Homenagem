@@ -123,6 +123,9 @@ a:hover{
     color: white;
     border-radius: 5px;
 }
+footer > p{
+    font-size: 14px;
+}
 footer{
     color: white;
     text-align: center;
