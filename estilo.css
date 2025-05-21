@@ -82,6 +82,17 @@ iframe{
     width: 90%;
     height: 90%;
 }
+video{
+    display: block;
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+    background-color: #e11700;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px black;
+}
 h1#final{
     margin: 20px;
     font-size: 28px;
