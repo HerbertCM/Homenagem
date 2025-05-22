@@ -132,3 +132,18 @@ footer{
     background-color: #290400;
     margin: 10px;
 }
+
+h1#temporario{
+    margin: auto;
+    font-family: 'Lexend', sans-serif;
+}
+a#temporario{
+    color: var(--cor0);
+    margin: auto;
+    width: 180px;
+    padding: 8px 0px;
+    border-radius: 10px;
+}
+a#temporario:hover{
+    color: white;
+}
