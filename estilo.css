@@ -73,7 +73,7 @@ main > p{
     font-size: 18px;
     line-height: 30px;
 }
-div{
+div#video{
     position: relative;
     padding-bottom: 60%;
     background-color: var(--cor1);
@@ -100,13 +100,15 @@ video{
 h1#final{
     margin: 20px;
     font-size: 28px;
+    margin-bottom: 100px;
+    margin-top: 80px;
 }
 img{
     display: block;
     margin: auto;
     margin-bottom: 15px;
     margin-top: 15px;
-    padding: 15px;
+    padding: 5px;
     background-color: #e11700;
     border-radius: 10px;
     box-shadow: 5px 5px 5px black;
@@ -146,4 +148,43 @@ a#temporario{
 }
 a#temporario:hover{
     color: white;
+}
+main > div#extra{
+    background-color: white;
+    border-radius: 10px;
+    height: 480px;
+}
+div#extra>h1{
+    display: block;
+    color: white;
+    background-color: var(--cor0);
+    margin: auto;
+    margin-bottom: 50px;
+    text-align: center;
+    max-width: 500px;
+    min-width: 300px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.69);
+}
+div#extra>h2{
+    text-align: center;
+    padding-bottom: 10px;
+    font-family: 'Love';
+    font-family: 'Loved by the King', sans-serif;
+    text-decoration: underline;
+    color: var(--cor2);
+    font-size: 30px;
+}
+div#extra > p{
+    margin: 0px 10px;
+    font-family: 'Lexend';
+    font-size: 18px;
+    line-height: 30px;
+    text-align: center;
+}
+div#extra > img {
+    padding: 5px;
+}
+div#extra > a {
+    padding: 0px;
 }
